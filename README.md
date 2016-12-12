@@ -10,6 +10,7 @@ This project consists of a portfolio website to showcase different photos throug
 You will need these installed in your computer:
 
 * [Node.js](https://nodejs.org/en/download/)
+* [Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
 
 ## Running The Project
 
@@ -19,6 +20,6 @@ You will need these installed in your computer:
 
         > npm install
 
-3. Run the webserver gulp task, and it will automatically opened up in your web browser:
+3. Run gulp task, and it will automatically opened up in your web browser:
 
-        > gulp webserver
+        > gulp
