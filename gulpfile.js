@@ -26,9 +26,8 @@ gulp.task('webserver', function(){
   gulp.src('./')
     .pipe(server({
       livereload: true,
-      directoryListing: true,
       open: true
     }));
 });
 
-gulp.task('default', ['scripts', 'styles']);
+gulp.task('default', ['scripts', 'styles', 'watch', 'webserver']);
