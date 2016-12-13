@@ -1,4 +1,7 @@
-h1, h2, h4, p {
+h1,
+h2,
+h4,
+p {
   color: #2d3c49;
 }
 
@@ -7,6 +10,7 @@ h1, h2, h4, p {
   margin-bottom: 2rem;
   border: 0;
 }
+
 .card > img {
   margin-bottom: .75rem;
 }
@@ -15,6 +19,7 @@ footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+
 footer p {
   margin-bottom: .25rem;
 }
@@ -26,6 +31,7 @@ footer p {
   margin: 3rem auto 0 auto;
   background-image: url('https://d125fmws0bore1.cloudfront.net/assets/logo/logo-mark-e55958b7fd6d392c1e343b02a9e045cb669c33cfa1bb772bba40897a0f2b482d.svg');
 }
+
 .logo, .text-header {
   margin-top: 3rem;
 }
@@ -33,6 +39,7 @@ footer p {
 .text-header {
   text-align: center;
 }
+
 .header {
   padding-bottom: 3rem;
   margin-bottom: 3rem;
@@ -51,6 +58,7 @@ footer p {
   .text-header {
     text-align: right;
   }
+  
   .logo {
     margin: 3rem 0 0 0;
   }
